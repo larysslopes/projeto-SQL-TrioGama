@@ -5,7 +5,7 @@
 
 <p>Lista de atividades relativas ao database MySQL da Gama Academy no HandsOn!<p/>
 
-<h3>breve instrução</h3>
+<h3>Breve instrução</h3>
 
 <p>Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de visualização e teste.
  
