@@ -20,9 +20,21 @@ on produto.departamento_codigo = departamento.codigo
 group by departamento.codigo;
 
 /* 7 - Mostre os dados dos pedidos, incluindo nomes dos clientes e nomes dos produtos que foram vendidos.*/
-SELECT cliente.nome, pedido.cliente_id, produto.nome
-FROM cliente, pedido, produto
-where cliente.nome = pedido.cliente_id
+SELECT 
+cliente.nome as "Nome do Cleinte",
+produto.nome as "Nome do Produto",
+pedido.status as "Status do Pedido",
+pedido.data_pedido as "Data do Pedido",
+item_pedido.quantidade as "Quant.",
+item_pedido.valor_unitario as "Valor Unitário",
+item_pedido.valor_total as "Valor Total",
+item_pedido.num_sequencial as "Número do PEdido"
+
+FROM cliente
+inner join pedido on pedido.cliente_id = cliente.id
+inner join item_pedido on item_pedido.pedido_numero = pedido.numero
+inner join produto on produto.codigo = item_pedido.produto_codigo
+WHERE pedido.status like "E";
 
 /* 8 - Mostre quantos pedidos foram feitos por mês no ano de 2022 (caso você tenha registros neste ano, senão escolha um ano que você tenha cadastrado - Novamente pense em COUNT e GROUP BY).*/
 select 
