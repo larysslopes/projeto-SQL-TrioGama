@@ -1,0 +1,93 @@
+INSERT INTO departamento(codigo, nome, descricao) VALUES
+(1, 'Colecionaveis', 'Miniaturas colecionaveis'); 
+INSERT INTO departamento VALUES
+(null, 'Livros', 'Livros para todos os gostos');
+INSERT INTO departamento VALUES
+(null, 'Mangas e HQ', 'Mangas e quadrinhos para qualquer nerd');
+INSERT INTO departamento VALUES
+(null, 'Roupas', 'Camisetas e moletons personalizados');
+INSERT INTO departamento VALUES
+(null, 'Nerdices', 'almofadas, xicaras e decorações personalizadas');
+select * from departamento;
+INSERT INTO produto VALUES
+(null, 'Pop funko Naruto', 'Miniatura Pop Funko', 125, 10, './imagens/funkonaruto.png', 1);
+INSERT INTO produto VALUES
+(null, 'Pop Funko Lufy', 'Miniatura Pop Funko', 125, 15, './imagens/funkolufy.png', 1),
+(null, 'Pop Funko Harry Potter','Miniatura Pop Funko', 125, 5, './imagens/funkoharry.png',1),
+(null, 'Pop Funko Vegeta','Miniatura Pop Funko', 125, 25,'./imagens.png',1),
+(null, 'Pop Funko Dumbledore','Miniatura Pop Funko', 125, 6, './imagens/funkodumbledore.png',1),
+(null, 'Pop Funko Mulher maravilha e pegasus', 'Miniatura Pop Funko', 250,7, './imagens/funkomaravilha.png',1),
+(null, 'Pop Funko Baby Yoda', 'Miniatura Pop Funko', 140, 10, './imagens.png',1),
+(null, 'Figure Action Boa Hancock', 'Miniatura Figure Action One Piece', 350, 3, './imagens/Boahancock.png',1),
+(null, 'Figure Action Batman', 'Miniatura Figure Action Batman', 400, 2, './imagens/batman.png',1),
+(null, 'Figure Action Goku', 'Miniatura Figure Action', 350,3, './imagens.goku.png',1);
+INSERT INTO produto VALUES
+(null, 'Mistborn O imperio Final', 'Livro Fantasia Porque merecemos Brandon Sanderson', 150, 1, './imagens/mistborn.png',2),
+(null, 'Mistborn O Poço da Ascenção', 'Livro Fantasia Explendido de bom', 45, 50, './imagens/mistborn2.png',2),
+(null, 'Mistborn O Heroi das Eras', 'Livro Fantasia Sensacional do primeiro livro ao ultimo', 450, 1, './imagens/mistborn3.png',2),
+(null, 'As brumas de avalon', 'Livro empoderador', 150, 10, './imagens/avalon.png',2),
+(null, 'O Cemiterio', 'Livro Terror pra não dormir a noite', 56, 25, './imagens/cemiterio.png', 2 ),
+(null, 'Saco de Ossos', 'Livro Terror de tremer as pernas', 75, 10, './imagens/sacoossos.png',2),
+(null, 'Duna', 'Livro Ficção Fantasia do milenio', 103, 30, './imagens/duna.png',2),
+(null, 'Agatha Christie, A Mansão Hollow', 'Livro Suspense Policial que todos nos amamos', 37, 12, './imagens/hollow.png',2),
+(null, 'Os Tres', 'Livro terror diferente', 25, 5, './imagens/tres.png',2),
+(null, 'O Hobbit', 'Livro Fantasia Porque o Gandalf é lindo',37, 5, './imagens/hobbit.png',2 );
+INSERT INTO produto VALUES
+(null, 'Manga One piece', 'Manga', 24, 6, './imagens/onepiece.png', 3),
+(null, 'Manga Naruto', 'Manga', 24, 6, './imagens/naruto.png', 3),
+(null, 'Manga Toriko', 'Manga', 24, 6, './imagens/toriko.png', 3),
+(null, 'Manga Bakuman', 'Manga', 24, 6, './imagens/bakuman.png', 3),
+(null, 'Manga Golden Kamuy', 'Manga', 24, 6, './imagens/golden.png', 3),
+(null, 'Manga Maid-sama', 'Manga', 24, 6, './imagens/maid.png', 3),
+(null, 'Manga HunterxHunter', 'Manga', 24, 6, './imagens/hunter.png', 3),
+(null, 'Manga Crimes Pefeitos', 'Manga', 24, 6, './imagens/crimes.png', 3),
+(null, 'Manga xxxHolic', 'Manga', 24, 6, './imagens/holic.png', 3),
+(null, 'Manga Boruto', 'Manga', 24, 6, './imagens/boruto.png', 3);
+INSERT INTO produto VALUES
+(null, 'Camiseta masculina', 'Camiseta masculina personalizada', 59, 100,'./imagens/camisetam.png', 4),
+(null, 'Camiseta feminina', 'Camiseta feminina personalizada', 59, 100,'./imagens/camisetaf.png', 4),
+(null, 'Moleton masculina', 'Moleton masculina personalizado', 59, 100,'./imagens/moletonm.png', 4),
+(null, 'Moleton feminino', 'Moleton feminino personalizado', 59, 100,'./imagens/moletonf.png', 4);
+INSERT INTO produto VALUES
+(null, 'Xicara personalizada', 'Xicara personalizada com o personagem que tu quiser', 45, 100,5),
+(null, 'Almofada personalida', 'Almofada personalizada com o personagem que tu quiser', 67, 100,5);
+INSERT INTO cliente values(null, 'Jose Silva', 'joses@gmail.com', '12345', '12345678900');
+
+INSERT INTO cliente values(null, 'Maria Gabriela', 'mariag@gmail.com', '02345', '02345678900');
+
+INSERT INTO cliente values(null, 'Juliana Souza', 'jusouza@gmail.com', '12340', '10045678900');
+
+INSERT INTO cliente values(null, 'Pedro Mota', 'pedromota@gmail.com', '12005', '12300678900');
+
+INSERT INTO cliente values(null, 'Laura Guimarães', 'lauragm@gmail.com', '12300', '12345008900')
+INSERT INTO cliente VALUES
+(null, 'Francisca da Silva', 'francissilva@gmail.com', '0102', '16709809578'),
+(null, 'Larissa Fofura' ,'larissafofura@gmail.com','1445','76904041030'),
+(null, 'Xiquinha portugal', 'xiquinhaport@gmail.com', '0987','53570013081' ),
+(null, 'Henrique Justiniano', 'henriquejustino@gmail.com', '9999', '60827850026'),
+(null, 'Francine Camarao', 'francinecamarao@gmail.com','1313','80739266012');
+
+INSERT INTO pedido values(null, 'E', '2021-08-27', '125', '0', '125','1');
+INSERT INTO pedido values(null, 'E', '2021-05-18', '450', '0', '450', '6');
+INSERT INTO pedido values(null, 'E', '2021-06-18', '59', '0', '59', '2');
+INSERT INTO pedido values(null, 'E', '2021-07-05', '37', '0', '37', '9');
+INSERT INTO pedido values(null, 'E', '2021-08-27', '125', '0', '125','3');
+INSERT INTO pedido values(null, 'E', '2021-09-23', '350', '0', '350', '4');
+INSERT INTO pedido values(null, 'E', '2021-11-16', '140', '0', '140', '5');
+INSERT INTO pedido values(null, 'E', '2021-12-30', '59', '0', '59', '1' );
+INSERT INTO pedido values(null, 'C', '2022-02-07', '103', '0', '103', '9' ); 
+INSERT INTO pedido values(null, 'E', '2021-12-30', '59', '0', '59', '10' );
+
+select * from produto 
+INSERT INTO item_pedido VALUES
+(null, '1', '450', '450','13',2 ),
+(null, '1', '125', '125','1','1'),
+(null, '1', '59','59','32','3'),
+(null, '1', '37','37', '20','4'),
+(null, '1', '125','125','5','5'),
+(null, '1', '350','350','8','6'),
+(null, '1', '140','140','7','7'),
+(null, '1', '59','59','33','8'),
+(null, '1', '103','103','17','9'),
+(null, '1', '59','59','34','10');
+select* from cliente
